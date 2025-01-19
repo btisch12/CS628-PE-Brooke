@@ -1,1 +1,11 @@
+# Input-Process-Output Model Analysis
+
+## Input
+The program takes a predefined list of movies as input. Each movie object contains three properties: `title`, `genre`, and `releaseYear`. Additionally, the user interacts with the program by selecting a genre from a dropdown menu and clicking on individual movie cards.
+
+## Process
+The program uses the `useState` hook to manage the state of the selected genre. When the user selects a genre, the program filters the movie list based on the selected genre. If "All Genres" is selected, the program displays all movies. When a user clicks on a movie card, the program triggers an alert to display the selected movie's title. The filtering logic dynamically updates the list of displayed movies based on the genre selected in the dropdown.
+
+## Output
+The output is a dynamically rendered list of movies displayed as styled cards. Each card contains the movie's title, genre, and release year. Alerts display movie titles upon clicking a card.
 
